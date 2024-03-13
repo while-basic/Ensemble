@@ -1,38 +1,15 @@
-<p align="center">
-  <h1 align="center">GPTeam: Collaborative AI Agents</h1>
-  <p align="center">
-    <img src="https://img.shields.io/github/stars/101dotxyz/gpteam.svg?style=for-the-badge&">
-    <img src="https://img.shields.io/github/license/101dotxyz/gpteam.svg?style=for-the-badge&">
-    <br /> 
-  <a href="https://www.gpteamai.com/ "><b>Web App</b></a>
-    |  
-  <a href="https://blog.langchain.dev/gpteam-a-multi-agent-simulation/"><b>Blog Post</b></a>
-  
-  </p>
-    <div align="center">
-    <img src="assets/gpteam.png" alt="GPTeam" width="400" height="267" />
-  </div>
-</p>
+## About Ensemble
 
-## NEW! The GPTeam web app is here! ✨ 
-Try it out: https://www.gpteamai.com/ 
-
-
-
-## About GPTeam
-
-GPTeam uses GPT-4 to create multiple agents who collaborate to achieve predefined goals. The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.
-
-See a video demo here: https://www.youtube.com/watch?v=cIxhI1d6NsM
+Ensemble uses GPT-4 to create multiple agents who collaborate to achieve predefined goals. The main objective of this project is to explore the potential of GPT models in enhancing multi-agent productivity and effective communication.
 
 Read more about the architecture here: https://blog.langchain.dev/gpteam-a-multi-agent-simulation/
 
 ## Getting started
 
-To begin exploring GPTeam, follow these steps:
+To begin exploring Ensemble, follow these steps:
 
 1. Clone the project repository to your local machine
-2. Move to the repository: `cd gpteam`
+2. Move to the repository: `cd ensemble`
 3. Run `python setup.py` to check your environment setup and configure it as needed
 4. Update the environment variables in `.env` with your API Keys. You will need an OpenAI API key, which you can obtain [here](https://platform.openai.com/account/api-keys). Supplying API keys for optional services will enable the use of other tools.
 5. Launch the world by running `poetry run world`
@@ -43,7 +20,7 @@ Now you can observe the world in action and watch as the agents interact with ea
 
 ## How it works
 
-GPTeam employs separate agents, each equipped with a memory, that interact with one another using communication as a tool. The implementation of agent memory and reflection is inspired by [this research paper](https://arxiv.org/pdf/2304.03442.pdf). Agents move around the world and perform tasks in different locations, depending on what they are doing and where other agents are located. They can speak to eachother and collaborate on tasks, working in parallel towards common goals.
+Ensemble employs separate agents, each equipped with a memory, that interact with one another using communication as a tool. The implementation of agent memory and reflection is inspired by [this research paper](https://arxiv.org/pdf/2304.03442.pdf). Agents move around the world and perform tasks in different locations, depending on what they are doing and where other agents are located. They can speak to eachother and collaborate on tasks, working in parallel towards common goals.
 
 ## Viewing Agents
 
@@ -71,7 +48,7 @@ Make sure you have the [Window extension](https://windowai.io/) installed, then 
 
 ## Contributing
 
-We enthusiastically welcome contributions to GPTeam! To contribute, please follow these steps:
+We enthusiastically welcome contributions. To contribute, please follow these steps:
 
 1. Fork the project repository to your own account
 2. Create a new branch for your changes
