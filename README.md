@@ -10,9 +10,10 @@ To begin exploring Ensemble, follow these steps:
 
 1. Clone the project repository to your local machine
 2. Move to the repository: `cd ensemble`
-3. Run `python setup.py` to check your environment setup and configure it as needed
-4. Update the environment variables in `.env` with your API Keys. You will need an OpenAI API key, which you can obtain [here](https://platform.openai.com/account/api-keys). Supplying API keys for optional services will enable the use of other tools.
-5. Launch the world by running `poetry run world`
+3. Run `poetry install`
+4. Run `python setup.py` to check your environment setup and configure it as needed
+5. Update the environment variables in `.env` with your API Keys. You will need an OpenAI API key, which you can obtain [here](https://platform.openai.com/account/api-keys). Supplying API keys for optional services will enable the use of other tools.
+6. Launch the world by running `poetry run world`
 
 To run the world cheaply, you can use `poetry run world --turbo`. This will use gpt3.5-turbo for all LLM calls which is a lot cheaper, but expect worse results!
 
